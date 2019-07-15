@@ -33,8 +33,8 @@ function plusopration(num1,num2){
 
 /**
  * 
- * @param {import("./type").Profile} var1 
- * @param {import("./type").Address[]} var2
+ * @param {import("../type").Profile} var1 
+ * @param {import("../type").Address[]} var2
  */
 function complex(var1,var2){
     console.log(var1.name)
@@ -45,7 +45,7 @@ function complex(var1,var2){
 
 /**
  * 
- * @type {import("./type").Address[] }
+ * @type {import("../type").Address[] }
  */
 let address;
 address.map((item)=>{
